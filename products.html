@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ethical Product Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="reset.css" rel="stylesheet" type="text/css">
+  <link href="reset-webview.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="products.html">Calculator</a>
+    <a href="about.html">About</a>
+  </div>
+
+<br><br>
+  <h1>Ethical Product Calculator</h1>
+  <h3>Calculate the ethical score of your clothing</h3>
+  <form id="calculatorForm">
+    <label for="material">Material:</label>
+    <select id="material">
+      <option value="cotton">Cotton</option>
+      <option value="polyester">Polyester</option>
+      <option value="silk">Silk</option>
+      <option value="wool">Wool</option>
+    </select><br>
+    <label for="labor">Labor Conditions:</label>
+    <select id="labor">
+      <option value="good">Good</option>
+      <option value="fair">Fair</option>
+      <option value="poor">Poor</option>
+    </select><br>
+    <label for="sustainability">Sustainability:</label>
+    <select id="sustainability">
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select><br>
+    <label for="packaging">Packaging:</label>
+    <select id="packaging">
+      <option value="recyclable">Recyclable</option>
+      <option value="reusable">Reusable</option>
+      <option value="plastic">Plastic</option>
+      <option value="none">None</option>
+    </select><br>
+    <label for="transport">Transport:</label>
+    <select id="transport">
+      <option value="local">Local</option>
+      <option value="national">National</option>
+      <option value="international">International</option>
+    </select><br>
+    <label for="waste">Waste Management:</label>
+    <select id="waste">
+      <option value="efficient">Efficient</option>
+      <option value="average">Average</option>
+      <option value="poor">Poor</option>
+    </select><br>
+    <button type="button" id="calculate">Calculate</button>
+  </form>
+  <p id="result"></p> <!-- This is where the result will be displayed -->
+  <br><br>
+  <script src="script.js" defer></script> <!-- Defer loading of script -->
+</body>
+
+</html>
+
+
+
